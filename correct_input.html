@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>correct_input</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<script>
+ 
+ 
+    // Assuming the vistor will always enter a number//
+let number = prompt ("Enter number greater than 100", "");
+
+
+// Prompt the visitor to enter number until the number is > 100//
+while(number < 100) {
+   
+   if (number < 100){
+   
+      let number_again = prompt ("Enter number again");
+   
+      if (number_again > 100){
+         console.log("Accepted! At last");
+         break;
+      }
+   }   
+}
+
+if (number > 100) {
+   console.log("Accepted");
+}
+
+
+</script>
+
+
+</body>
+
+
+
+
+</html>
